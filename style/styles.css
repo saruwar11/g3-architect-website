@@ -21,6 +21,7 @@
   border-radius: 8px;
   border: none;
 }
+/* start header */
 .navber{
   justify-content: space-between;
   padding: 8px;
@@ -65,3 +66,97 @@
 .banner-description{
   margin-bottom: 8px;
 }
+/*main  */
+main{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.teams-feture{
+  margin-top: 30px;
+}
+
+.team-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /* border: 2px solid aquamarine; */
+  width: 50%;
+  gap: 20px;
+  
+}
+.team-img-all{
+  max-width: 100%;
+}
+.feture{
+  /* border: 2px solid green; */
+  width: 50%;
+  padding-left: 50px;
+  /* text-align: center; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+
+}
+.feture-title{
+  font-size: 2em;
+  /* font-weight: 600; */
+  margin-bottom: 20px;
+}
+.feture-title{
+  margin-top: 80px;
+
+}
+.fetures{
+  color: #FF900E;
+}
+.feture-description{
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+  .navber, .nav-links{
+    flex-direction: column;
+  }
+  
+}
+/* end of header */
